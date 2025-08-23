@@ -1,12 +1,12 @@
-# xk6-sql-driver-ramsql
+# xk6-sql-driver-snowflake
 
-Database driver extension for [xk6-sql](https://github.com/grafana/xk6-sql) k6 extension to support RamSQL database.
+Database driver extension for [xk6-sql](https://github.com/grafana/xk6-sql) k6 extension to support Snowflake database.
 
 ## Example
 
 ```JavaScript file=examples/example.js
 import sql from "k6/x/sql";
-import driver from "k6/x/sql/driver/ramsql";
+import driver from "k6/x/sql/driver/snowflake";
 
 const db = sql.open(driver, "test_db");
 

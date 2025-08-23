@@ -1,5 +1,5 @@
 import sql from "k6/x/sql";
-import driver from "k6/x/sql/driver/ramsql";
+import driver from "k6/x/sql/driver/snowflake";
 
 const db = sql.open(driver, "test_db");
 
