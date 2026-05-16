@@ -5,7 +5,7 @@ import (
 	"github.com/grafana/xk6-sql/sql"
 
 	// Blank import required for initialization of driver.
-	_ "github.com/snowflakedb/gosnowflake"
+	_ "github.com/snowflakedb/gosnowflake/v2"
 )
 
 func init() {
